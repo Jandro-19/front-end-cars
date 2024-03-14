@@ -1,0 +1,102 @@
+body {
+    font-family: 'Lexend Deca', sans-serif;
+}
+div{
+    padding: 20px;;
+}
+p {
+    font-size: 12px;
+    margin: 15px;
+    margin-bottom: 50px;;
+}
+h1{
+    margin: 15px;
+    margin-top: 2px;
+    font-family: 'Big Shoulders Display', sans-serif;
+}
+
+img{
+    margin-bottom: 2px;
+    margin: 15px;
+    margin-top: 25px;
+    width: 50px;
+}
+
+.container {
+    display: flex;
+    border-radius: 15%;
+    overflow: hidden;
+    -webkit-border-radius: 15%;
+    -moz-border-radius: 15%;
+    -ms-border-radius: 15%;
+    -o-border-radius: 15%;
+}
+
+
+.column {
+    flex: 1; 
+    color: white;
+}
+
+.sedan {
+    background-color: hsl(31, 77%, 52%);
+
+}
+
+.suv {
+    background-color:  hsl(184, 100%, 22%);
+
+
+}
+.luxury{
+    background-color:  hsl(179, 100%, 13%);
+
+
+}
+
+.boton{
+    color: hsl(31, 77%, 52%);
+    background-color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 8px 4px;
+    cursor: pointer;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    font-size: 12px;
+    align-items: center;
+    width: unset;
+}
+
+.boton2{
+    color:  hsl(184, 100%, 22%);
+}
+.boton3{
+    color: hsl(179, 100%, 13%);
+}
+
+
+@media only screen and (max-width: 375px) {
+    body{
+        margin-bottom: 0px;
+    }
+
+        .container {
+            flex-direction: column;
+            border-radius: 0px;
+            -webkit-border-radius: 0px;
+            -moz-border-radius: 0px;
+            -ms-border-radius: 0px;
+            -o-border-radius: 0px;
+}
+    
+        .column {
+            width: 100%;
+            margin-bottom: 0px; 
+        }
+    }
